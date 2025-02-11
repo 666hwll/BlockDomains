@@ -1,6 +1,6 @@
 # etc
 
-This repo is a random assortment of files. Made public for some ad hoc reason or another.
+Block Hosts 
 
 ## Current contents:
 
