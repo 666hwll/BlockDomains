@@ -14,3 +14,8 @@ Block Hosts
 ``` bash
 curl https://raw.githubusercontent.com/666hwll/BlockDomains/main/ips > ips && sudo cat ips >> /etc/hosts && shred -u ips
 ```
++ Windows:
+``` powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force
+.\update-hosts.ps1
+```
