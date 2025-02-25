@@ -8,3 +8,9 @@ Block Hosts
 	+ Add to /etc/hosts in Linux
 	+ ...or C:\Windows\System32\drivers\etc\hosts
      you could trigger windows defender for changing those rules
+
+## Installation:
++ Linux:
+``` bash
+curl https://raw.githubusercontent.com/666hwll/BlockDomains/main/ips > ips && sudo cat ips >> /etc/hosts && shred -u ips
+```
